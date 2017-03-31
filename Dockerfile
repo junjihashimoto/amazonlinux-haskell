@@ -11,7 +11,7 @@ RUN stack install \
     hspec \
     amazonka \
     amazonka-lambda \
-    amazonka-api-gateway \
+    amazonka-apigateway \
     aws \
     yesod \
     hsyslog \
