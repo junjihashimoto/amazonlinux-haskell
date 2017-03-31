@@ -12,7 +12,10 @@ RUN stack install \
     amazonka \
     amazonka-lambda \
     amazonka-apigateway \
-    aws \
+    http-client \
+    http-client-openssl \
+    regex-posix \
+    monad-logger-syslog \
     yesod \
     hsyslog \
     optparse-applicative \
