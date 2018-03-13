@@ -6,19 +6,3 @@ RUN yum clean all \
     && yum clean all
 RUN curl -sSL https://get.haskellstack.org/ | sh
 RUN stack setup
-RUN stack install \
-    doctest \
-    hspec \
-    amazonka \
-    amazonka-lambda \
-    amazonka-apigateway \
-    http-client \
-    http-client-openssl \
-    regex-posix \
-    monad-logger-syslog \
-    yesod \
-    hsyslog \
-    optparse-applicative \
-    lifted-async \
-    lifted-base \
-    shelly
