@@ -1,4 +1,4 @@
-FROM amazonlinux:2016.09
+FROM amazonlinux:2018.03
 MAINTAINER Junji Hashimoto "junji.hashimoto@gree.net"
 RUN yum clean all \
     && yum -y update \
